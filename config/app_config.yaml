@@ -1,0 +1,40 @@
+# Windows桌面AI代理管理应用配置
+
+# 应用配置
+app:
+  name: "AI Agent Desktop"
+  version: "1.0.0"
+  debug: false
+  log_level: "INFO"
+
+# 数据库配置
+database:
+  path: "data/app.db"
+  backup_enabled: true
+  backup_interval: 3600  # 1小时
+
+# A2A服务器配置
+a2a_server:
+  host: "localhost"
+  port: 8000
+  enable_cors: true
+  max_workers: 10
+
+# UI配置
+ui:
+  theme: "dark"
+  language: "zh-CN"
+  auto_save: true
+  refresh_interval: 5000  # 5秒
+
+# 模型配置目录
+model_configs:
+  path: "config/model_configs/"
+  auto_discover: true
+
+# 日志配置
+logging:
+  level: "INFO"
+  file: "logs/app.log"
+  max_size: 10485760  # 10MB
+  backup_count: 5
