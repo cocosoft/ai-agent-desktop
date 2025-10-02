@@ -1,0 +1,24 @@
+{
+  "template_id": "imported_7e3ead1e",
+  "name": "导入测试模板",
+  "description": "导入测试模板描述",
+  "agent_type": "text_generation",
+  "base_capabilities": [
+    "text_generation"
+  ],
+  "recommended_models": {
+    "text_generation": [
+      "gpt-3.5-turbo"
+    ]
+  },
+  "default_settings": {
+    "max_concurrent_tasks": 2,
+    "auto_start": false
+  },
+  "category": "imported",
+  "tags": [
+    "imported"
+  ],
+  "created_at": "2024-01-01T00:00:00",
+  "updated_at": "2024-01-01T00:00:00"
+}

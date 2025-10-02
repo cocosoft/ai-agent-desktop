@@ -1,0 +1,29 @@
+{
+  "template_id": "custom_5697a408",
+  "name": "专业翻译代理",
+  "description": "用于多语言翻译的专业代理模板",
+  "agent_type": "translation",
+  "base_capabilities": [
+    "translation"
+  ],
+  "recommended_models": {
+    "translation": [
+      "gpt-4",
+      "claude-3-sonnet",
+      "deepseek-translator"
+    ]
+  },
+  "default_settings": {
+    "max_concurrent_tasks": 4,
+    "auto_start": true,
+    "priority": "normal"
+  },
+  "category": "translation",
+  "tags": [
+    "translation",
+    "multilingual",
+    "professional"
+  ],
+  "created_at": "2025-10-02T07:42:23.709899",
+  "updated_at": "2025-10-02T07:42:23.709899"
+}

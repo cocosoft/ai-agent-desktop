@@ -1,0 +1,32 @@
+{
+  "template_id": "from_agent_1420bc15",
+  "name": "从代理创建的模板",
+  "description": "从代理配置创建的模板描述",
+  "agent_type": "text_generation",
+  "base_capabilities": [
+    "text_generation",
+    "text_summarization"
+  ],
+  "recommended_models": {
+    "text_generation": [
+      "gpt-3.5-turbo"
+    ],
+    "text_summarization": [
+      "gpt-3.5-turbo"
+    ]
+  },
+  "default_settings": {
+    "max_concurrent_tasks": 3,
+    "auto_start": true,
+    "priority": "normal",
+    "health_check_interval": 30,
+    "max_restart_attempts": 3,
+    "restart_delay": 5
+  },
+  "category": "from_agent",
+  "tags": [
+    "from_existing_agent"
+  ],
+  "created_at": "2025-10-02T07:41:32.682661",
+  "updated_at": "2025-10-02T07:41:32.682661"
+}

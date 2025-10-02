@@ -1,0 +1,29 @@
+{
+  "template_id": "custom_77a7b22f",
+  "name": "高效文本摘要代理",
+  "description": "用于文本摘要和内容提炼的高效代理模板",
+  "agent_type": "text_summarization",
+  "base_capabilities": [
+    "text_summarization"
+  ],
+  "recommended_models": {
+    "text_summarization": [
+      "gpt-3.5-turbo",
+      "claude-3-haiku",
+      "bart-large-cnn"
+    ]
+  },
+  "default_settings": {
+    "max_concurrent_tasks": 6,
+    "auto_start": true,
+    "priority": "normal"
+  },
+  "category": "summarization",
+  "tags": [
+    "summarization",
+    "efficient",
+    "content"
+  ],
+  "created_at": "2025-10-02T07:41:32.689644",
+  "updated_at": "2025-10-02T07:41:32.689644"
+}

@@ -1,0 +1,29 @@
+{
+  "template_id": "custom_558497f7",
+  "name": "智能问答代理",
+  "description": "用于问答和知识检索的智能代理模板",
+  "agent_type": "question_answering",
+  "base_capabilities": [
+    "question_answering"
+  ],
+  "recommended_models": {
+    "question_answering": [
+      "gpt-4",
+      "claude-3-sonnet",
+      "llama-3-70b"
+    ]
+  },
+  "default_settings": {
+    "max_concurrent_tasks": 3,
+    "auto_start": true,
+    "priority": "high"
+  },
+  "category": "qa",
+  "tags": [
+    "qa",
+    "knowledge",
+    "intelligent"
+  ],
+  "created_at": "2025-10-02T07:41:32.688597",
+  "updated_at": "2025-10-02T07:41:32.688597"
+}
