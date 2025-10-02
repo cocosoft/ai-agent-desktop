@@ -39,7 +39,7 @@ We welcome feature suggestions! Please create an issue with:
 ### Setup Steps
 1. **Fork and clone the repository**:
    ```bash
-   git clone https://github.com/your-username/ai-agent-desktop.git
+   git clone https://github.com/cocosoft/ai-agent-desktop.git
    cd ai-agent-desktop
    ```
 

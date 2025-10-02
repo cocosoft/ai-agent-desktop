@@ -79,9 +79,9 @@ A powerful desktop application for managing and coordinating multiple AI agents 
 
 ### Method 2: Installer Packages (Recommended for Users)
 
-- **Windows**: Download and run `AI_Agent_Desktop_Setup_v1.0.0.exe`
-- **macOS**: Download and open `AI_Agent_Desktop_v1.0.0.dmg`
-- **Linux**: Download and run `AI_Agent_Desktop_v1.0.0.AppImage`
+- **Windows**: Download and run `AI_Agent_Desktop_Setup_v0.1.0.exe`
+- **macOS**: Download and open `AI_Agent_Desktop_v0.1.0.dmg`
+- **Linux**: Download and run `AI_Agent_Desktop_v0.1.0.AppImage`
 
 ## 🚀 Quick Start
 
@@ -142,7 +142,7 @@ The application automatically creates default configuration files on first run:
 # Application Settings
 app:
   name: "AI Agent Desktop"
-  version: "1.0.0"
+  version: "0.1.0"
   language: "en"
 
 # Database Configuration

@@ -1,6 +1,6 @@
 # AI Agent Desktop 更新日志
 
-## v1.0.0 (2025-10-02)
+## v0.1.0 (2025-10-02)
 
 ### 🎉 首次发布
 
@@ -54,9 +54,9 @@
    ```
 
 2. **安装包安装**：
-   - Windows: `AI_Agent_Desktop_Setup_v1.0.0.exe`
-   - macOS: `AI_Agent_Desktop_v1.0.0.dmg`
-   - Linux: `AI_Agent_Desktop_v1.0.0.AppImage`
+   - Windows: `AI_Agent_Desktop_Setup_v0.1.0.exe`
+   - macOS: `AI_Agent_Desktop_v0.1.0.dmg`
+   - Linux: `AI_Agent_Desktop_v0.1.0.AppImage`
 
 ### 已知问题
 - A2A客户端连接在某些网络环境下可能不稳定

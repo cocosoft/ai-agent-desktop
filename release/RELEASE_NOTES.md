@@ -1,7 +1,7 @@
-# AI Agent Desktop v1.0.0 发布说明
+# AI Agent Desktop v0.1.0 发布说明
 
 ## 版本信息
-- **版本号**: v1.0.0
+- **版本号**: v0.1.0
 - **发布日期**: 2025年10月2日
 - **发布类型**: 正式发布
 - **兼容性**: Windows 10/11, macOS 10.15+, Linux (Ubuntu 18.04+)
@@ -78,9 +78,9 @@ python main.py
 ```
 
 #### 方式二：安装包安装（推荐用户）
-- **Windows**: 运行 `AI_Agent_Desktop_Setup_v1.0.0.exe`
-- **macOS**: 打开 `AI_Agent_Desktop_v1.0.0.dmg`
-- **Linux**: 运行 `AI_Agent_Desktop_v1.0.0.AppImage`
+- **Windows**: 运行 `AI_Agent_Desktop_Setup_v0.1.0.exe`
+- **macOS**: 打开 `AI_Agent_Desktop_v0.1.0.dmg`
+- **Linux**: 运行 `AI_Agent_Desktop_v0.1.0.AppImage`
 
 ### 首次使用
 1. **启动应用**：双击应用图标或运行 `python main.py`

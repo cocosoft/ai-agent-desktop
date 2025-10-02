@@ -209,8 +209,8 @@ if platform.system() == 'Windows':
         # 复制可执行文件
         exe_file = self.dist_dir / "AI_Agent_Desktop.exe"
         if exe_file.exists():
-            shutil.copy2(exe_file, installer_dir / "AI_Agent_Desktop_Setup_v1.0.0.exe")
-            print(f"✅ Windows安装程序已创建: {installer_dir / 'AI_Agent_Desktop_Setup_v1.0.0.exe'}")
+            shutil.copy2(exe_file, installer_dir / "AI_Agent_Desktop_Setup_v0.1.0.exe")
+            print(f"✅ Windows安装程序已创建: {installer_dir / 'AI_Agent_Desktop_Setup_v0.1.0.exe'}")
         else:
             print("❌ 可执行文件未找到")
             return False
@@ -288,8 +288,8 @@ if platform.system() == 'Windows':
         
         exe_file = self.dist_dir / "ai_agent_desktop"
         if exe_file.exists():
-            shutil.copy2(exe_file, linux_dir / "AI_Agent_Desktop_v1.0.0.AppImage")
-            print(f"✅ Linux AppImage已创建: {linux_dir / 'AI_Agent_Desktop_v1.0.0.AppImage'}")
+            shutil.copy2(exe_file, linux_dir / "AI_Agent_Desktop_v0.1.0.AppImage")
+            print(f"✅ Linux AppImage已创建: {linux_dir / 'AI_Agent_Desktop_v0.1.0.AppImage'}")
         else:
             print("❌ 可执行文件未找到")
             return False
@@ -382,9 +382,9 @@ def main():
     
     if success:
         print("\n📦 发布文件清单:")
-        print("1. Windows: AI_Agent_Desktop_Setup_v1.0.0.exe")
-        print("2. macOS: AI_Agent_Desktop_v1.0.0.dmg (应用包)")
-        print("3. Linux: AI_Agent_Desktop_v1.0.0.AppImage")
+        print("1. Windows: AI_Agent_Desktop_Setup_v0.1.0.exe")
+        print("2. macOS: AI_Agent_Desktop_v0.1.0.dmg (应用包)")
+        print("3. Linux: AI_Agent_Desktop_v0.1.0.AppImage")
         print("4. 源码包: release/ 目录")
         print("\n🚀 准备发布！")
     else:
