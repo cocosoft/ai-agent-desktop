@@ -63,7 +63,7 @@ A powerful desktop application for managing and coordinating multiple AI agents 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/ai-agent-desktop.git
+   git clone https://github.com/cocosoft/ai-agent-desktop.git
    cd ai-agent-desktop
    ```
 
@@ -238,7 +238,7 @@ pytest --cov=src tests/
 ### Getting Help
 
 - **Documentation**: Check the [User Manual](docs/USER_MANUAL.md)
-- **Issues**: Report bugs or feature requests on [GitHub Issues](https://github.com/your-username/ai-agent-desktop/issues)
+- **Issues**: Report bugs or feature requests on [GitHub Issues](https://github.com/cocosoft/ai-agent-desktop/issues)
 - **Community**: Join our community forum for support
 
 ## 🤝 Contributing
@@ -265,7 +265,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Project Maintainer**: AI Agent Desktop Team
 - **Email**: your-email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
+- **GitHub**: [cocosoft](https://github.com/cocosoft)
 
 ---
 
